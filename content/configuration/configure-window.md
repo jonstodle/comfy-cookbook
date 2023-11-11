@@ -1,5 +1,7 @@
 +++
 title = "Configure Window"
+[extra]
+versions = ["0.2"]
 +++
 
 To configure the game window, access it through the `EngineContext.renderer.window`:

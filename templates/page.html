@@ -3,6 +3,9 @@
 
 {% block content %}
     <h1>{{ page.title }}</h1>
+    <p><em>Applies to versions:
+        {% for v in page.extra.versions %} {{ v }} {% if not loop.last %}, {% endif %} {% endfor %}
+    </em></p>
     {{ page.content | safe }}
 {% endblock content %}
 

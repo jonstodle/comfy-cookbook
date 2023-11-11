@@ -1,5 +1,7 @@
 +++
 title = "Window Sizing"
+[extra]
+versions = ["0.2"]
 +++
 
 To set the size of the window, use the `set_inner_size` method:
