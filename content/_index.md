@@ -1,5 +1,6 @@
 +++
 title = "index"
+redirect_to = "configuration"
 +++
 
 # Comfy Cookbook

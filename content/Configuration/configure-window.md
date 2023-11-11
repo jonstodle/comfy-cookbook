@@ -2,8 +2,6 @@
 title = "Configure Window"
 +++
 
-# Configure Window
-
 To configure the game window, access it through the `EngineContext.renderer.window`:
 
 ```rust
